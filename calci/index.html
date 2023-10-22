@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="s1">
+        <input type="text" class="in" readonly>
+        <div class="btn-cont">
+            <button class="btn" onclick=" cur='';
+            document.querySelector('.in').value=cur;">C</button>
+            <button class="btn" onclick=" cur+='1';
+            document.querySelector('.in').value=cur;">1</button>
+            <button class="btn"onclick=" cur+='2';
+            document.querySelector('.in').value=cur;">2</button>
+            <button class="btn" onclick=" cur+='+';
+            document.querySelector('.in').value=cur;">+</button>
+            <button class="btn" onclick=" cur+='3';
+            document.querySelector('.in').value=cur;">3</button>
+            <button class="btn" onclick=" cur+='4';
+            document.querySelector('.in').value=cur;">4</button>
+            <button class="btn" onclick=" cur+='-';
+            document.querySelector('.in').value=cur;">-</button>
+            <button class="btn" onclick=" cur+='5';
+            document.querySelector('.in').value=cur;">5</button>
+            <button class="btn" onclick=" cur+='6';
+            document.querySelector('.in').value=cur;">6</button>
+            <button class="btn" onclick=" cur+='*';
+            document.querySelector('.in').value=cur;">*</button>
+            <button class="btn" onclick=" cur+='7';
+            document.querySelector('.in').value=cur;">7</button>
+            <button class="btn" onclick=" cur+='8';
+            document.querySelector('.in').value=cur;">8</button>
+            <button class="btn" onclick=" cur+='/';
+            document.querySelector('.in').value=cur;">/</button>
+            <button class="btn" onclick=" cur=eval(cur);
+            document.querySelector('.in').value=cur;">=</button>
+            <button class="btn" onclick=" cur+='9';
+            document.querySelector('.in').value=cur;">9</button>
+            <button class="btn" onclick=" cur+='0';
+            document.querySelector('.in').value=cur;">0</button>
+            <button class="btn" onclick=" cur+='.';
+            document.querySelector('.in').value=cur;">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
